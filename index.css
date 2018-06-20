@@ -1,0 +1,51 @@
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+}
+
+p {
+    color: #333;
+}
+
+body {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h1,
+footer p {
+    text-align: center;
+}
+
+.info,
+footer p {
+    color: #666;
+    font-size: 12px;
+}
+
+.job-info h4 span {
+    color: #666;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.skill h3,
+.job h3 {
+    font-style: italic;
+}
+
+.divider,
+.divider-full,
+.divider-heavy {
+    height: 1px;
+    background-color: #ccc;
+}
+
+.divider,
+.divider-heavy {
+    width: 100px;
+}
+
+.divider-heavy {
+    height: 2px;
+}
